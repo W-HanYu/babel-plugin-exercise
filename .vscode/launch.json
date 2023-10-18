@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "type check-entry3",
+      "program": "${workspaceFolder}/exercise-type-checker/src/type-check-entry3.js",
+      "request": "launch",
+      "type": "node"
+    },
+    {
+      "name": "type check-entry4",
+      "program": "${workspaceFolder}/exercise-type-checker/src/type-check-entry4.js",
+      "request": "launch",
+      "type": "node"
+    },
+    {
+      "name": "type check-entry5",
+      "program": "${workspaceFolder}/exercise-type-checker/src/type-check-entry5.js",
+      "request": "launch",
+      "type": "node"
+    }
+  ]
+}

@@ -5,3 +5,4 @@
 - [自动国际化](./exercise-auto-i18n/src/)
 - [自动生成文档](./exercise-auto-document/src/)
 - [linter](./exercise-linter/src/)
+- [类型检查](./exercise-type-checker/src/)
