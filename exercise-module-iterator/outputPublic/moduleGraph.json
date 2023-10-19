@@ -1,0 +1,259 @@
+{
+    "root": {
+        "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/index.js",
+        "imports": {
+            "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/a.js": [
+                {
+                    "type": "deconstruct",
+                    "imported": "aa1",
+                    "local": "aa1"
+                },
+                {
+                    "type": "deconstruct",
+                    "imported": "aa2",
+                    "local": "aa2"
+                }
+            ]
+        },
+        "exports": [],
+        "subModules": {
+            "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/a.js": {
+                "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/a.js",
+                "imports": {
+                    "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/b.js": [
+                        {
+                            "type": "default",
+                            "local": "b"
+                        }
+                    ]
+                },
+                "exports": [
+                    {
+                        "type": "named",
+                        "exported": "aa1",
+                        "local": "aa1"
+                    },
+                    {
+                        "type": "named",
+                        "exported": "aa2",
+                        "local": "aa2"
+                    }
+                ],
+                "subModules": {
+                    "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/b.js": {
+                        "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/b.js",
+                        "imports": {
+                            "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js": [
+                                {
+                                    "type": "deconstruct",
+                                    "imported": "cc",
+                                    "local": "renamedCc"
+                                }
+                            ]
+                        },
+                        "exports": [
+                            {
+                                "type": "default",
+                                "exported": "b"
+                            }
+                        ],
+                        "subModules": {
+                            "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js": {
+                                "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js",
+                                "imports": {},
+                                "exports": [
+                                    {
+                                        "type": "named",
+                                        "exported": "cc",
+                                        "local": "cc"
+                                    }
+                                ],
+                                "subModules": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "allModules": {
+        "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js": {
+            "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js",
+            "imports": {},
+            "exports": [
+                {
+                    "type": "named",
+                    "exported": "cc",
+                    "local": "cc"
+                }
+            ],
+            "subModules": {}
+        },
+        "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/b.js": {
+            "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/b.js",
+            "imports": {
+                "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js": [
+                    {
+                        "type": "deconstruct",
+                        "imported": "cc",
+                        "local": "renamedCc"
+                    }
+                ]
+            },
+            "exports": [
+                {
+                    "type": "default",
+                    "exported": "b"
+                }
+            ],
+            "subModules": {
+                "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js": {
+                    "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js",
+                    "imports": {},
+                    "exports": [
+                        {
+                            "type": "named",
+                            "exported": "cc",
+                            "local": "cc"
+                        }
+                    ],
+                    "subModules": {}
+                }
+            }
+        },
+        "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/a.js": {
+            "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/a.js",
+            "imports": {
+                "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/b.js": [
+                    {
+                        "type": "default",
+                        "local": "b"
+                    }
+                ]
+            },
+            "exports": [
+                {
+                    "type": "named",
+                    "exported": "aa1",
+                    "local": "aa1"
+                },
+                {
+                    "type": "named",
+                    "exported": "aa2",
+                    "local": "aa2"
+                }
+            ],
+            "subModules": {
+                "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/b.js": {
+                    "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/b.js",
+                    "imports": {
+                        "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js": [
+                            {
+                                "type": "deconstruct",
+                                "imported": "cc",
+                                "local": "renamedCc"
+                            }
+                        ]
+                    },
+                    "exports": [
+                        {
+                            "type": "default",
+                            "exported": "b"
+                        }
+                    ],
+                    "subModules": {
+                        "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js": {
+                            "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js",
+                            "imports": {},
+                            "exports": [
+                                {
+                                    "type": "named",
+                                    "exported": "cc",
+                                    "local": "cc"
+                                }
+                            ],
+                            "subModules": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/index.js": {
+            "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/index.js",
+            "imports": {
+                "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/a.js": [
+                    {
+                        "type": "deconstruct",
+                        "imported": "aa1",
+                        "local": "aa1"
+                    },
+                    {
+                        "type": "deconstruct",
+                        "imported": "aa2",
+                        "local": "aa2"
+                    }
+                ]
+            },
+            "exports": [],
+            "subModules": {
+                "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/a.js": {
+                    "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/a.js",
+                    "imports": {
+                        "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/b.js": [
+                            {
+                                "type": "default",
+                                "local": "b"
+                            }
+                        ]
+                    },
+                    "exports": [
+                        {
+                            "type": "named",
+                            "exported": "aa1",
+                            "local": "aa1"
+                        },
+                        {
+                            "type": "named",
+                            "exported": "aa2",
+                            "local": "aa2"
+                        }
+                    ],
+                    "subModules": {
+                        "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/b.js": {
+                            "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/b.js",
+                            "imports": {
+                                "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js": [
+                                    {
+                                        "type": "deconstruct",
+                                        "imported": "cc",
+                                        "local": "renamedCc"
+                                    }
+                                ]
+                            },
+                            "exports": [
+                                {
+                                    "type": "default",
+                                    "exported": "b"
+                                }
+                            ],
+                            "subModules": {
+                                "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js": {
+                                    "path": "/Users/wangtao/Desktop/babel通关秘籍训练/babel-plugin-exercise/exercise-module-iterator/test-project/c/index.js",
+                                    "imports": {},
+                                    "exports": [
+                                        {
+                                            "type": "named",
+                                            "exported": "cc",
+                                            "local": "cc"
+                                        }
+                                    ],
+                                    "subModules": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

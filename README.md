@@ -8,3 +8,4 @@
 - [类型检查](./exercise-type-checker/src/)
 - [压缩混淆](./exercise-mangle-compress/src/)
 - [js解释器](./exercise-js-interpreter/src/)
+- [模块遍历](./exercise-module-iterator/src/)

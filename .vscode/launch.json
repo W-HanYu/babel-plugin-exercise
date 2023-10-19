@@ -29,6 +29,12 @@
       "program": "${workspaceFolder}/exercise-js-interpreter/src/interpreter2.js",
       "request": "launch",
       "type": "node"
+    },
+    {
+      "name": "模块遍历",
+      "program": "${workspaceFolder}/exercize-module-iterator/src/index.js",
+      "request": "launch",
+      "type": "node"
     }
   ]
 }
