@@ -8,7 +8,7 @@ const types = require("@babel/types");
 
 const sourceCode = `
   console.log(1);
-
+ 
   function func() {
     console.info(2);
   }
