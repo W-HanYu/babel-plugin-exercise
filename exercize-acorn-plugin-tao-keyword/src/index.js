@@ -5,7 +5,7 @@ const Parser = acorn.Parser
 const newParser = Parser.extend(taoKeywordPlugin)
 
 var program = `
-    tao
+    tao 
     const a = 1
 `;
 
