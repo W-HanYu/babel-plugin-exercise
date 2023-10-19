@@ -19,8 +19,14 @@
       "type": "node"
     },
     {
-      "name": "压缩混淆",
-      "program": "${workspaceFolder}/exercise-mangle-compress/src/index.js",
+      "name": "js-解释器1",
+      "program": "${workspaceFolder}/exercise-js-interpreter/src/interpreter1.js",
+      "request": "launch",
+      "type": "node"
+    },
+    {
+      "name": "js-解释器2",
+      "program": "${workspaceFolder}/exercise-js-interpreter/src/interpreter2.js",
       "request": "launch",
       "type": "node"
     }
