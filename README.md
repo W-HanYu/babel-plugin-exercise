@@ -7,4 +7,3 @@
 - [linter](./exercise-linter/src/)
 - [类型检查](./exercise-type-checker/src/)
 - [压缩混淆](./exercise-mangle-compress/src/)
-- [js解释器](./exercise-js-interpreter/src/)
