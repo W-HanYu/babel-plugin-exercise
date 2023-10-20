@@ -1,6 +1,12 @@
 {
   "configurations": [
     {
+      "name": "插入函数调用参数-version3",
+      "program": "${workspaceFolder}/exercise-parameters-insert/src/version3.js",
+      "request": "launch",
+      "type": "node"
+    },
+    {
       "name": "type check-entry3",
       "program": "${workspaceFolder}/exercise-type-checker/src/type-check-entry3.js",
       "request": "launch",
